@@ -1,0 +1,5 @@
+1. Download & Install Qt framework 5.14.2 from this link https://download.qt.io/archive/qt/
+2. Extract demo project
+3. Open Qt creator IDE
+4. In Qt creator, Select File->Open File or Project and browse *.pro file in extracted folder of demo project
+5. Build & run project. Ctrl+B (Build), Ctrl+R(Run)

@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MyNewButton.qml</file>
+        <file>inactive.png</file>
+        <file>disable.png</file>
+        <file>active.png</file>
+        <file>ToastMessage.qml</file>
+        <file>ToastManager.qml</file>
+        <file>Toast.qml</file>
+        <file>close_bright.svg</file>
+        <file>CustomTextField.qml</file>
+        <file>MyButton.qml</file>
+    </qresource>
+</RCC>
