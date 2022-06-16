@@ -30,3 +30,7 @@ void ActionProvider::exitApplication()
 {
     vtx::flux::Dispatcher::instance().dispatch(new vtx::flux::Action(ActionType::ExitApplication, QVariant()));
 }
+
+inline int sum(int a, int b) {
+    return a + b;
+}
