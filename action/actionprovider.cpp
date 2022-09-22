@@ -34,3 +34,45 @@ void ActionProvider::exitApplication()
 inline int sum(int a, int b) {
     return a + b;
 }
+int Tritype(int i, int j, int k) {
+	int trityp = 0;
+	if (i < 0 || j < 0 || k < 0)
+		return 3;
+	if (i + j <= k || j + k <= i || k + i <= j)
+		return 3;
+	if (i == j)
+		trityp = trityp + 1;
+	if (i == k)
+		trityp = trityp + 1;
+	if (j == k)
+		trityp = trityp + 1;
+	if (trityp >= 2)
+		trityp = 2;
+	return trityp;
+}
+
+
+/*
+Link: pathcrawler-online.
+*/
+int uninit_var(int a[3], int b[3]) {
+	int i, k=0;
+
+	for(i=0; i<2; i++) {
+		if(a[i] == 0)
+			return 0;
+
+		if(a[i] != a[i+1])
+			k = 0;
+		else if(k == 2)
+			return 0;
+
+		while(b[k] != a[i])
+			if(k == 2)
+				return 0;
+			else
+				k++;
+	}
+	return 1;
+}
+
