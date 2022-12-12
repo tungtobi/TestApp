@@ -9,7 +9,7 @@
 TestApp::TestApp():
     stateConfVectorPosition(0),
     iface(),
-    iface_OCB(nullptr)
+    iface_OCB{nullptr}
 {
 }
 
