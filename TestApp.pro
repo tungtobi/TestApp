@@ -1,3 +1,5 @@
+TEMPLATE = lib
+
 QT += quick
 
 CONFIG += c++11
